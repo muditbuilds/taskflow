@@ -1,0 +1,29 @@
+# Binaries
+/scheduler
+/worker
+/taskflow
+*.exe
+
+# Go
+*.test
+*.out
+vendor/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env (if you add .env for docker-compose overrides)
+.env
+.env.local
+
+# Coverage
+coverage.txt
+coverage.html
